@@ -50,3 +50,8 @@ mae = mean_absolute_error(ytest,y_pred)
 print("Mean Square Error : ", mse)
 print("Mean Absolute Error : ", mae)
 
+"""
+Here test data is 20% hence giving following values
+Mean Square Error :  33.448979997676496
+Mean Absolute Error :  3.8429092204444966
+"""
