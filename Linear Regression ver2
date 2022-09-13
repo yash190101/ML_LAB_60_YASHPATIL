@@ -22,7 +22,7 @@ y = boston.target
 #the submodule cross_validation is renamed and deprecated to model_selection
 from sklearn.model_selection import train_test_split
 
-xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size =0.2,random_state = 0)
+xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size =0.3,random_state = 0)
 
 print("xtrain shape : ", xtrain.shape)
 print("xtest shape : ", xtest.shape)
@@ -51,7 +51,7 @@ print("Mean Square Error : ", mse)
 print("Mean Absolute Error : ", mae)
 
 """
-Here test data size is 20% and giving following values.
-Mean Square Error :  33.448979997676496
-Mean Absolute Error :  3.8429092204444966
+Here test data size is 30% and giving following values.
+Mean Square Error :  27.195965766883408
+Mean Absolute Error :  3.6099040603818096
 """
