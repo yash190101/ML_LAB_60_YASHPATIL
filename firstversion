@@ -22,7 +22,7 @@ y = boston.target
 #the submodule cross_validation is renamed and deprecated to model_selection
 from sklearn.model_selection import train_test_split
 
-xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size =0.3,random_state = 0)
+xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size =0.2,random_state = 0)
 
 print("xtrain shape : ", xtrain.shape)
 print("xtest shape : ", xtest.shape)
